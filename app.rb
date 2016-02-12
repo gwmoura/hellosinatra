@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
+  "Hello! We are running ruby #{RUBY_VERSION}"
 end
